@@ -6,6 +6,7 @@ export const PRODUCTS = {
   boltTShirt: { slug: 'sauce-labs-bolt-t-shirt', name: 'Sauce Labs Bolt T-Shirt' },
   fleeceJacket: { slug: 'sauce-labs-fleece-jacket', name: 'Sauce Labs Fleece Jacket' },
   onesie: { slug: 'sauce-labs-onesie', name: 'Sauce Labs Onesie' },
+  redTShirt: { slug: 'test.allthethings()-t-shirt-(red)', name: 'Test.allTheThings() T-Shirt (Red)' },
 };
 
 // Cantidad total de productos que muestra el catálogo

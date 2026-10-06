@@ -24,6 +24,14 @@ export const test = base.extend({
     await use(new CheckoutPage(page));
   },
 
+  // Entrega el catálogo con la sesión de `problem_user` (usuario con fallos intencionales)
+  problemUserInventory: async ({ loginPage, inventoryPage }, use) => {
+    await loginPage.goto();
+    await loginPage.login(USERS.problem);
+    await expect(inventoryPage.title).toHaveText('Products');
+    await use(inventoryPage);
+  },
+
   // Entrega el catálogo con la sesión del usuario estándar ya iniciada
   loggedInInventory: async ({ loginPage, inventoryPage }, use) => {
     await loginPage.goto();

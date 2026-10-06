@@ -1,0 +1,168 @@
+{
+  "1. Imágenes del catálogo": {
+    "cantidadDeProductos": 6,
+    "imagenesDistintas": 1,
+    "detalle": [
+      {
+        "producto": "Sauce Labs Backpack",
+        "imagen": "/assets/sl-404-Cq1a9k9X.jpg"
+      },
+      {
+        "producto": "Sauce Labs Bike Light",
+        "imagen": "/assets/sl-404-Cq1a9k9X.jpg"
+      },
+      {
+        "producto": "Sauce Labs Bolt T-Shirt",
+        "imagen": "/assets/sl-404-Cq1a9k9X.jpg"
+      },
+      {
+        "producto": "Sauce Labs Fleece Jacket",
+        "imagen": "/assets/sl-404-Cq1a9k9X.jpg"
+      },
+      {
+        "producto": "Sauce Labs Onesie",
+        "imagen": "/assets/sl-404-Cq1a9k9X.jpg"
+      },
+      {
+        "producto": "Test.allTheThings() T-Shirt (Red)",
+        "imagen": "/assets/sl-404-Cq1a9k9X.jpg"
+      }
+    ]
+  },
+  "2. Ordenamiento": {
+    "za": {
+      "nombres": [
+        "Sauce Labs Backpack",
+        "Sauce Labs Bike Light",
+        "Sauce Labs Bolt T-Shirt",
+        "Sauce Labs Fleece Jacket",
+        "Sauce Labs Onesie",
+        "Test.allTheThings() T-Shirt (Red)"
+      ],
+      "precios": [
+        "$29.99",
+        "$9.99",
+        "$15.99",
+        "$49.99",
+        "$7.99",
+        "$15.99"
+      ]
+    },
+    "lohi": {
+      "nombres": [
+        "Sauce Labs Backpack",
+        "Sauce Labs Bike Light",
+        "Sauce Labs Bolt T-Shirt",
+        "Sauce Labs Fleece Jacket",
+        "Sauce Labs Onesie",
+        "Test.allTheThings() T-Shirt (Red)"
+      ],
+      "precios": [
+        "$29.99",
+        "$9.99",
+        "$15.99",
+        "$49.99",
+        "$7.99",
+        "$15.99"
+      ]
+    },
+    "hilo": {
+      "nombres": [
+        "Sauce Labs Backpack",
+        "Sauce Labs Bike Light",
+        "Sauce Labs Bolt T-Shirt",
+        "Sauce Labs Fleece Jacket",
+        "Sauce Labs Onesie",
+        "Test.allTheThings() T-Shirt (Red)"
+      ],
+      "precios": [
+        "$29.99",
+        "$9.99",
+        "$15.99",
+        "$49.99",
+        "$7.99",
+        "$15.99"
+      ]
+    },
+    "ordenOriginal": [
+      "Sauce Labs Backpack",
+      "Sauce Labs Bike Light",
+      "Sauce Labs Bolt T-Shirt",
+      "Sauce Labs Fleece Jacket",
+      "Sauce Labs Onesie",
+      "Test.allTheThings() T-Shirt (Red)"
+    ],
+    "cambioElOrdenAlElegirZA": false
+  },
+  "3. Agregar y quitar productos": [
+    {
+      "producto": "Sauce Labs Backpack",
+      "labelBefore": "Add to cart",
+      "labelAfterAdd": "Remove",
+      "badgeAfterAdd": "1",
+      "labelAfterRemove": "Remove",
+      "badgeAfterRemove": "1"
+    },
+    {
+      "producto": "Sauce Labs Bike Light",
+      "labelBefore": "Add to cart",
+      "labelAfterAdd": "Remove",
+      "badgeAfterAdd": "2",
+      "labelAfterRemove": "Remove",
+      "badgeAfterRemove": "2"
+    },
+    {
+      "producto": "Sauce Labs Bolt T-Shirt",
+      "labelBefore": "Add to cart",
+      "labelAfterAdd": "Add to cart",
+      "badgeAfterAdd": "2",
+      "labelAfterRemove": "Add to cart",
+      "badgeAfterRemove": "2"
+    },
+    {
+      "producto": "Sauce Labs Fleece Jacket",
+      "labelBefore": "Add to cart",
+      "labelAfterAdd": "Add to cart",
+      "badgeAfterAdd": "2",
+      "labelAfterRemove": "Add to cart",
+      "badgeAfterRemove": "2"
+    },
+    {
+      "producto": "Sauce Labs Onesie",
+      "labelBefore": "Add to cart",
+      "labelAfterAdd": "Remove",
+      "badgeAfterAdd": "3",
+      "labelAfterRemove": "Remove",
+      "badgeAfterRemove": "3"
+    },
+    {
+      "producto": "Test.allTheThings() T-Shirt (Red)",
+      "labelBefore": "Add to cart",
+      "labelAfterAdd": "Add to cart",
+      "badgeAfterAdd": "3",
+      "labelAfterRemove": "Add to cart",
+      "badgeAfterRemove": "3"
+    }
+  ],
+  "4. Detalle de producto": {
+    "url": "https://www.saucedemo.com/inventory-item.html?id=5",
+    "nombreEnCatalogo": "Sauce Labs Backpack",
+    "nombreEnDetalle": "Sauce Labs Backpack",
+    "coinciden": true
+  },
+  "5. Checkout - campos de envío": {
+    "escribi": {
+      "firstName": "Nombre",
+      "lastName": "Apellido",
+      "postalCode": "5000"
+    },
+    "valoresQueQuedaronEnLosCampos": {
+      "firstName": "Apellido",
+      "lastName": "",
+      "postalCode": "5000"
+    },
+    "elApellidoQuedoGuardado": false,
+    "urlDespuesDeContinuar": "https://www.saucedemo.com/checkout-step-one.html",
+    "errorMostrado": "Error: Last Name is required"
+  }
+}
