@@ -2,15 +2,6 @@ import { test, expect } from '../fixtures/index.js';
 import { PRODUCTS, SORT, TOTAL_PRODUCTS } from '../data/products.js';
 import { SHIPPING } from '../data/checkout.js';
 
-/*
- * BUGS CONOCIDOS con `problem_user`
- *
- * SauceDemo incluye este usuario con fallos a propósito, para practicar la detección de bugs.
- * Cada test describe el comportamiento CORRECTO esperado y se marca con `test.fail()`:
- *   - Mientras el bug exista, el test falla y Playwright lo da por "esperado" (la suite sigue en verde).
- *   - Si el bug se corrige, el test pasaría y Playwright avisa con un error, para revisar el reporte.
- * El detalle de cada bug (pasos, resultado esperado y actual, evidencia) está en docs/BUG_REPORTS.md.
- */
 test.describe('Bugs conocidos · problem_user', { tag: '@bug' }, () => {
   test('BUG-001 · las imágenes de los productos son distintas entre sí', async ({ problemUserInventory: inventory }) => {
     test.fail(true, 'BUG-001: todos los productos muestran la misma imagen de error');

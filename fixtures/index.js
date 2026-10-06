@@ -5,8 +5,6 @@ import { CartPage } from '../pages/CartPage.js';
 import { CheckoutPage } from '../pages/CheckoutPage.js';
 import { USERS } from '../data/users.js';
 
-// Un "fixture" prepara lo que un test necesita antes de correr y lo limpia después.
-// Acá se arman los Page Objects y la sesión iniciada, para no repetirlo en cada test.
 export const test = base.extend({
   loginPage: async ({ page }, use) => {
     await use(new LoginPage(page));
@@ -24,7 +22,6 @@ export const test = base.extend({
     await use(new CheckoutPage(page));
   },
 
-  // Entrega el catálogo con la sesión de `problem_user` (usuario con fallos intencionales)
   problemUserInventory: async ({ loginPage, inventoryPage }, use) => {
     await loginPage.goto();
     await loginPage.login(USERS.problem);
@@ -32,7 +29,6 @@ export const test = base.extend({
     await use(inventoryPage);
   },
 
-  // Entrega el catálogo con la sesión del usuario estándar ya iniciada
   loggedInInventory: async ({ loginPage, inventoryPage }, use) => {
     await loginPage.goto();
     await loginPage.login(USERS.standard);
