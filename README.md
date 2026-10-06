@@ -1,5 +1,7 @@
 # Playwright QA Automation · SauceDemo
 
+[![Playwright Tests](https://github.com/estudiolragus-lang/playwright-qa-automation/actions/workflows/playwright.yml/badge.svg)](https://github.com/estudiolragus-lang/playwright-qa-automation/actions/workflows/playwright.yml)
+
 Suite de pruebas automatizadas end-to-end con **Playwright** y **JavaScript** sobre [SauceDemo](https://www.saucedemo.com), una tienda online de práctica pensada para aprender testing.
 
 Proyecto de **Agustín García**, QA Tester Junior. Forma parte de mi [portfolio](https://portfolio-web-nine-mu.vercel.app/).
