@@ -1,0 +1,26 @@
+{
+  "name": "playwright-qa-automation",
+  "version": "1.0.0",
+  "description": "Suite de pruebas end-to-end con Playwright sobre SauceDemo: login, catálogo, carrito y checkout. Page Object Model, fixtures y CI con GitHub Actions.",
+  "scripts": {
+    "test": "playwright test",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "qa",
+    "testing",
+    "automation",
+    "e2e",
+    "page-object-model"
+  ],
+  "author": "Agustín García",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0"
+  }
+}
